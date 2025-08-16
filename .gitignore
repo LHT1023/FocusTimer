@@ -1,14 +1,21 @@
+# Java / Maven
 target/
 *.iml
 .idea/
 *.log
 
+# Node / Vite
 node_modules/
 dist/
 .vite/
+
+# Rust / Tauri
 src-tauri/target/
 src-tauri/**/*.log
+
+# OS
 .DS_Store
 Thumbs.db
 
+# Docker / env
 *.env
